@@ -38,7 +38,7 @@ ADD . /app
 RUN python3 setup.py install
 
 #EXTRA DEPEND
-RUN pip install lxml_html_clean
+RUN pip install -r requirements.txt 
 
 
 # Copy entrypoint script and Odoo configuration file
